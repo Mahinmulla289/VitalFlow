@@ -1,0 +1,176 @@
+/* General styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Merriweather', serif;
+    background-color: #f8f9fa;
+    padding-top: 160px; /* Added more padding to prevent overlap with the fixed navbar */
+    padding-bottom: 150px;
+}
+
+/* Fixed Navbar Styling */
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+    background-color: #c0392b;
+    color: white;
+    padding: 0;
+}
+
+.header-top {
+    background-color: #a93226;
+    padding: 5px 0;
+    font-size: 14px;
+}
+
+.header-top ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.header-top ul li {
+    margin-right: 15px;
+    color: white;
+}
+
+.header-top ul li i {
+    margin-right: 5px;
+}
+
+.header-bottom {
+    padding: 10px 0;
+}
+
+.header-bottom .logo img {
+    width: 130px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #f8c471;
+}
+
+.navbar-light .navbar-nav .active .nav-link {
+    color: #f8c471;
+}
+
+/* Appointment Form Styling */
+.appointment-form {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    max-width: 500px;
+    margin: 30px auto;
+    margin-bottom: 80px;
+    font-family: 'Merriweather', serif;
+}
+
+.appointment-form label {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.appointment-form input,
+.appointment-form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: 'Merriweather', serif;
+}
+
+.appointment-form input:focus,
+.appointment-form select:focus {
+    outline: none;
+    border-color: #e74c3c;
+    box-shadow: 0 0 5px rgba(231, 76, 60, 0.5);
+}
+
+.appointment-form button {
+    width: 100%;
+    padding: 12px;
+    background-color: #c0392b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    font-family: 'Merriweather', serif;
+}
+
+.appointment-form button:hover {
+    background-color: #e74c3c;
+}
+
+/* Footer Styling */
+.footer-contact,
+.footer-links,
+.footer-form {
+    padding: 15px 0;
+    font-size: 14px;
+}
+
+.footer-copy {
+    padding: 10px 0;
+    /* background-color: #c0392b;    */
+    color: white;
+    text-align: center;
+}
+
+.footer-copy a {
+    color: #f8c471;
+    text-decoration: none;
+}
+
+.socila-link ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.socila-link ul li {
+    margin-left: 10px;
+}
+
+.socila-link ul li a {
+    color: white;
+    font-size: 18px;
+}
+
+.socila-link ul li a:hover {
+    color: #f8c471;
+}
+
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .header-top ul {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .navbar-light .navbar-nav {
+        text-align: center;
+    }
+
+    .appointment-form {
+        margin: 15px;
+    }
+}

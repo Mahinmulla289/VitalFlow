@@ -1,0 +1,17 @@
+
+.gg-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center the items */
+    margin: 0 -10px; /* Adjust spacing */
+}
+
+.gg-element {
+    margin: 10px; /* Add spacing between images */
+}
+
+.gg-element img {
+    max-width: 100%; /* Ensure images are responsive */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Remove bottom space in images */
+}

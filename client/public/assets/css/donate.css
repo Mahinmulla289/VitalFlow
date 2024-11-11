@@ -1,0 +1,275 @@
+/* General styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Merriweather', serif;
+    background-color: #f8f9fa;
+}
+
+/* Header Styling */
+header {
+    background-color: #c0392b; /* Red background for the header */
+    color: white; /* White text color */
+    width: 100%; /* Full width */
+    position: relative; /* Ensure positioning is relative for child elements */
+}
+
+.header-top {
+    padding: 10px 20px; /* Added horizontal padding for better alignment */
+}
+
+.header-top ul {
+    display: flex; /* Flexbox for horizontal list */
+    list-style-type: none; /* Remove default list styling */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+.header-top ul li {
+    margin-right: 15px; /* Space between items */
+    color: white; /* White text color for items */
+}
+
+.header-bottom {
+    padding: 10px 20px; /* Added horizontal padding */
+}
+
+.header-bottom .logo img {
+    width: 130px; /* Logo width */
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white; /* White color for nav links */
+    font-weight: 500; /* Font weight */
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #f8c471; /* Color on hover */
+}
+/* Donation Form Styling */
+main {
+    padding: 40px 20px;
+}
+
+.donation-form {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 0 auto; /* Center the form */
+    margin-bottom: 60px;
+}
+
+.donation-form h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.donation-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.donation-form input,
+.donation-form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.donation-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #c0392b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.donation-form button:hover {
+    background-color: #a83227;
+}
+
+footer {
+    background-color: #c00; /* Red background for the footer */
+    color: white; /* White text color */
+    padding: 30px 0; /* Vertical padding */
+  }
+  
+  .footer-contact h2,
+  .footer-links h2,
+  .footer-form .form-title h4 {
+    color: #fff; /* White color for headings */
+    margin-bottom: 15px; /* Space below headings */
+  }
+  
+  .footer-contact .address-row {
+    display: flex; /* Flexbox for aligning icons and text */
+    align-items: center; /* Center items vertically */
+    margin-bottom: 15px; /* Space between rows */
+  }
+  
+  .footer-contact .icon {
+    margin-right: 10px; /* Space between icon and text */
+  }
+  
+  .footer-links ul,
+  .footer-links li {
+    padding: 0; /* Remove padding */
+    list-style-type: none; /* Remove bullets */
+  }
+  
+  .footer-links a {
+    color: white; /* White text color for links */
+    text-decoration: none; /* Remove underline */
+  }
+  
+  .footer-links a:hover {
+    color: lightgray; /* Change color on hover */
+  }
+  
+  .footer-form .form-card {
+    background-color: #c00; /* Darker red background for the form card */
+    padding: 20px; /* Padding inside the form card */
+    border-radius: 8px; /* Rounded corners */
+  }
+  
+  .footer-form .form-control {
+    margin-bottom: 15px; /* Space between input fields */
+    border: none; /* Remove border */
+    border-radius: 4px; /* Rounded corners */
+    padding: 10px; /* Padding inside input fields */
+  }
+  
+  .footer-form .btn {
+    background-color: #c00; /* White background for the button */
+    border: none; /* Remove border */
+    color: white; /* Red text for the button */
+  }
+  
+  .footer-copy {
+    background-color:#c00; /* Darker red for the copyright section */
+    padding: 15px 0; /* Vertical padding */
+    color: white;
+  }
+  
+  .footer-copy p {
+    margin: 0; /* Remove default margin */
+  }
+  
+  .socila-link ul {
+    display: flex; /* Flexbox for social links */
+    justify-content: flex-end; /* Align to the right */
+    padding: 0; /* Remove padding */
+    list-style-type: none; /* Remove bullets */
+  }
+  
+  .socila-link li {
+    margin-left: 15px; /* Space between social icons */
+  }
+  
+  .socila-link a {
+    color: white; /* White color for social icons */
+    font-size: 1.5rem; /* Size of social icons */
+  }
+  
+  .socila-link a:hover {
+    color: lightgray; /* Change color on hover */
+  }
+footer {
+  background-color: #c00; /* Red background for the footer */
+  color: white; /* White text color */
+  padding: 30px 0; /* Vertical padding */
+}
+
+.footer-contact h2,
+.footer-links h2,
+.footer-form .form-title h4 {
+  color: #fff; /* White color for headings */
+  margin-bottom: 15px; /* Space below headings */
+}
+
+.footer-contact .address-row {
+  display: flex; /* Flexbox for aligning icons and text */
+  align-items: center; /* Center items vertically */
+  margin-bottom: 15px; /* Space between rows */
+}
+
+.footer-contact .icon {
+  margin-right: 10px; /* Space between icon and text */
+}
+
+.footer-links ul,
+.footer-links li {
+  padding: 0; /* Remove padding */
+  list-style-type: none; /* Remove bullets */
+}
+
+.footer-links a {
+  color: white; /* White text color for links */
+  text-decoration: none; /* Remove underline */
+}
+
+.footer-links a:hover {
+  color: lightgray; /* Change color on hover */
+}
+
+.footer-form .form-card {
+  background-color: #c00; /* Darker red background for the form card */
+  padding: 20px; /* Padding inside the form card */
+  border-radius: 8px; /* Rounded corners */
+}
+
+.footer-form .form-control {
+  margin-bottom: 15px; /* Space between input fields */
+  border: none; /* Remove border */
+  border-radius: 4px; /* Rounded corners */
+  padding: 10px; /* Padding inside input fields */
+}
+
+.footer-form .btn {
+  background-color: #c00; /* White background for the button */
+  border: none; /* Remove border */
+  color: white; /* Red text for the button */
+}
+
+.footer-copy {
+  background-color:#c00; /* Darker red for the copyright section */
+  padding: 15px 0; /* Vertical padding */
+  color: white;
+}
+
+.footer-copy p {
+  margin: 0; /* Remove default margin */
+}
+
+.socila-link ul {
+  display: flex; /* Flexbox for social links */
+  justify-content: flex-end; /* Align to the right */
+  padding: 0; /* Remove padding */
+  list-style-type: none; /* Remove bullets */
+}
+
+.socila-link li {
+  margin-left: 15px; /* Space between social icons */
+}
+
+.socila-link a {
+  color: white; /* White color for social icons */
+  font-size: 1.5rem; /* Size of social icons */
+}
+
+.socila-link a:hover {
+  color: lightgray; /* Change color on hover */
+}
+  
+  
